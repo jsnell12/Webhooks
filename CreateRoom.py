@@ -16,7 +16,7 @@ bodyJSON = json.dumps(body)
 
 headers = {
     'Authorization': 'Bearer ' + TOKEN,
-    'Content-'
+    'Content-Type': 'application/json'
 }
 
 createRoom = BASEURL + room
