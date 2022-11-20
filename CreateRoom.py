@@ -23,6 +23,6 @@ createRoom = BASEURL + room
 
 response = requests.post(createRoom, headers=headers, data=bodyJSON)
 
-responseJSON = resonse.json()
+responseJSON = response.json()
 
 pprint(responseJSON)
